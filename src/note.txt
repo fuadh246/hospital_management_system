@@ -1,0 +1,25 @@
+        employee fuad = new employee(1,"fuad","Data science");
+        employee Afrin = new employee();
+        System.out.println(fuad.toString());
+        System.out.println(Afrin.toString());
+        Afrin.set$ID(5);
+        System.out.println(Afrin.toString());
+        Afrin.$ID =20;
+        System.out.println(Afrin.toString());
+        doctor azrin = new doctor();
+        doctor ayat = new doctor();
+        ayat.$assingPatients$ = "fuad";
+        System.out.println(ayat.toString());
+
+
+        //arraylist
+        ArrayList <doctor> doctors = new ArrayList<doctor>();
+                doctors.add(new doctor());
+                doctors.add(new doctor());
+                //doctor
+                doctors.get(0).set$ID(1);
+                doctors.get(0).setName("Fuad Hassan");
+                doctors.get(0).setPosition("data");
+                doctors.get(0).set$roomNumber$(201);
+                doctors.get(0).setSalery(20100.00);
+                System.out.println(doctors+"\n");
