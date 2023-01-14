@@ -6,7 +6,7 @@
         System.out.println(Hassan.toString());
         Hassan.$ID =20;
         System.out.println(Hassan.toString());
-        doctor azrin = new doctor();
+        doctor azan = new doctor();
         doctor ayat = new doctor();
         ayat.$assingPatients$ = "fuad";
         System.out.println(ayat.toString());
