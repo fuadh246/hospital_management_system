@@ -8,7 +8,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter number");
         int $number_of_doctors$ = scan.nextInt();
-        for (int i = 0; i <= $number_of_doctors$; i++) {
+        for (int i = 0; i < $number_of_doctors$; i++) {
             doctors.add(new doctor());
             Scanner scanID = new Scanner(System.in);
             System.out.print("ID -> ");

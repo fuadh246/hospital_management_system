@@ -1,11 +1,11 @@
         employee fuad = new employee(1,"fuad","Data science");
-        employee Afrin = new employee();
+        employee Hassan = new employee();
         System.out.println(fuad.toString());
-        System.out.println(Afrin.toString());
-        Afrin.set$ID(5);
-        System.out.println(Afrin.toString());
-        Afrin.$ID =20;
-        System.out.println(Afrin.toString());
+        System.out.println(Hassan.toString());
+        Hassan.set$ID(5);
+        System.out.println(Hassan.toString());
+        Hassan.$ID =20;
+        System.out.println(Hassan.toString());
         doctor azrin = new doctor();
         doctor ayat = new doctor();
         ayat.$assingPatients$ = "fuad";
